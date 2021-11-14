@@ -13,7 +13,8 @@ because we would want to check if the test cases still passed after making any c
 `No` because the write and send are two different functions. I would use a unit test to test each part of "messaging" individually but end-to-end testing for the whole messaging test.
 
 4) Would you use a unit test to test the “max message length” feature of a messaging application? Why or why not? For this question, assume the “max message length” feature prevents the user from typing more than 80 characters.  
-`Yes` I would use a unit test to check the max message length because it doesn't require many different components to work together. The max message length is encapsulated enough to encourage the use of a unit test.
+`Yes` I would use a unit test to check the max message length because it doesn't require many different components to work together. The max message length is encapsulated enough to encourage the use of a unit test.  
 
-
+Screenshot of `npm test`
+![Test Suite Tests](suite_tests_pass.PNG)
 
